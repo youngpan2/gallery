@@ -1,1 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>周佶亨的作品集</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f5f5f5; /* 背景色 */
+            color: #333; /* 文字顏色 */
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #555;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .gallery-item {
+            width: 30%;
+            margin: 10px;
+        }
+        .gallery-item img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="color: #ff9900;">周佶亨的作品集</h1> <!-- 標題文字顏色 -->
+    </header>
+    <nav>
+        <a href="#introduction">自我介紹</a>
+        <a href="#gallery">作品集</a>
+        <a href="#contact">聯絡我</a>
+    </nav>
+    <section id="introduction">
+        <h2>自我介紹</h2>
+        <p>你的自我介紹內容在這裡。</p>
+    </section>
+    <section id="gallery">
+        <h2>作品集</h2>
+        <div class="gallery">
+            <!-- 這裡放置你的作品，每個作品都在一個gallery-item內 -->
+            <div class="gallery-item">
+                <img src="path/to/your/image1.jpg" alt="作品1">
+            </div>
+            <div class="gallery-item">
+                <img src="path/to/your/image2.jpg" alt="作品2">
+            </div>
+            <!-- 可以繼續添加更多的作品 -->
+        </div>
+    </section>
+    <section id="contact">
+        <h2>聯絡我</h2>
+        <p>Email: <a href="mailto:f0979195325@gmail.com" style="color: #009688;">f0979195325@gmail.com</a></p> <!-- 超連結文字顏色 -->
+        <p>電話: <span style="color: #009688;">0979195325</span></p> <!-- 文字顏色 -->
+    </section>
+    <footer>
+        <p>&copy; 2024 周佶亨. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
 
